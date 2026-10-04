@@ -1,0 +1,5 @@
+name: acme_dbt
+version: '1.0.0'
+profile: acme
+model-paths: ['models']
+macro-paths: ['macros']
