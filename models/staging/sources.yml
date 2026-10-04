@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: raw
+    freshness:
+      warn_after: {count: 6, period: hour}
+    loaded_at_field: _loaded_at
+    tables:
+      - name: meter_reads
+      - name: meters
